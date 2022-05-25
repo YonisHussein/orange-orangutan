@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid blue;
+    font-family: monospace;
+}
+
+
+p {
+    font-size: 20px;
+}
+
+button {
+    outline: none;
+    background-color: orange;
+    font-size: 20px;
+    
+}
+
+.outer-container {
+    padding: 10px;
+}
+
+.top-nav p {
+    float: right;
+}
