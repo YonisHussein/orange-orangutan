@@ -8,20 +8,48 @@
 
 
 p {
-    font-size: 20px;
+    font-size: 30px;
 }
 
 button {
     outline: none;
     background-color: orange;
-    font-size: 20px;
+    font-size: 30px;
     
+}
+
+h1,h2 {
+    font-size: 30px;
+    text-align: center;
 }
 
 .outer-container {
     padding: 10px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
 }
 
 .top-nav p {
     float: right;
 }
+
+.inner-container {
+    height: 100%;
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quiz-home {
+    margin-bottom: 10%;
+}
+
+.quiz-home button {
+    display: block;
+    margin: 0 auto;
+}
+
